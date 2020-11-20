@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #00539CFF;
+    color: #EEA47FFF;
+    font-family: 'Poppins', sans-serif;
+}
+
+.title {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color:#EEA47FFF;
+    font-family: 'Goldman', cursive;
+}
+
+#timer{
+    font-family: 'Goldman', cursive;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    background-color: #00539CFF;;
+    margin-top: 25px;
+}
+
+#cardSong{
+    width: 25%;
+    text-align: center;
+    font-weight: 700;
+}
+
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 0 auto;
+}
+
+.songList{
+    border: 3px solid #101820FF;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    left: 50%;
+    right: 50%;
+    background-color: #EEA47FFF;
+    color: #00539CFF;
+    padding: 10px;
+    font-family: 'Goldman', cursive;
+}
+
+.quiz{
+    font-size: xx-large;
+}
+
+.playButton{
+    width: 50px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    background: url('../src/images/play.png') center center/cover;
+}
+
+#quiz{
+    width: 75%;
+}
+
+#submit{
+    background-color: #EEA47FFF;
+    color: #00539CFF;
+    box-shadow: none;
+    border: none;
+    width: 100px;
+    height: 35px;
+    font-size: large;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+#result{
+    background-color: #EEA47FFF;
+    color: #00539CFF;
+    box-shadow: none;
+    border: none;
+    width: 100px;
+    height: 35px;
+    font-size: large;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.qst{
+    border: 3px solid #101820FF;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 5px;
+    height: 15vh;
+    background-color: #EEA47FFF;
+    color: #00539CFF;
+}
+
+.question{
+    font-family: 'Goldman', cursive;
+}
+
+.answers{
+    margin-top: 10px;
+    text-align: center;
+    color:#00539CFF;
+    font-weight: 900;
+}
+.answers label{
+    margin: 10px;
+}
+
+.answers label input{
+    margin-right: 3px;
+}
+
+footer{
+    text-align: center;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    position: relative;
+    background-color: #00539CFF;
+    color: #EEA47FFF;
+    padding: 10px;
+}

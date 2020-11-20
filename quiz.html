@@ -3,9 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/quiz.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Goldman:wght@700&family=Poppins:wght@300&display=swap" rel="stylesheet">
     <title>Find the Title!</title>
 </head>
 <body>
-    List Quiz
+    <header>
+        <div class="title">
+            <h1>Guess the title from this song:</h1>
+        </div>
+    </header>
+
+    <main>
+        <div id="timer">0</div>
+        <div id="results"></div>
+        <button id="submit">Submit</button>
+        <button id='result'>Get Result</button>
+        <div class="container">
+            <div id="cardSong"></div>
+            <div id="quiz"></div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="made">
+            Made in Eko Bambang Prasetio Munthe &#169 2020
+        </div>
+    </footer>
 </body>
+<script src="./js/audio.js" type="text/javascript"></script>
 </html>
