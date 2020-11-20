@@ -202,7 +202,7 @@ function generateQuiz(questions, quizContainer, resultsContainer, submitButton){
             clearInterval(downloadTimer)
             alert(`Your score is (score = ${skor})`)
             musik.pause()
-            e.target.style.background = "url('./src/images/play.png') center center/cover"
+            e.target.style.background = "url('https://ekomunthe48.github.io/ekomunthe48/src/images/play.png') center center/cover"
             musik.currentTime = 0
             skor = 0
             timer = 0
@@ -214,24 +214,24 @@ function generateQuiz(questions, quizContainer, resultsContainer, submitButton){
     }, 1000);
     
     function listSong(e) {
-        let fileName = `../src/audios/${e.target.id}${ext}`;
+        let fileName = `https://ekomunthe48.github.io/ekomunthe48/src/audios/${e.target.id}${ext}`;
 
         if (isPlay){
             if(playTrack !== e.target.id){
                 isPlay = true;
-                set(playTrack).style.background = "url('./src/images/play.png') center center/cover"
-                e.target.style.background = "url('./src/images/pause-button.png') center center/cover"
+                set(playTrack).style.background = "url('https://ekomunthe48.github.io/ekomunthe48/src/images/play.png') center center/cover"
+                e.target.style.background = "url('https://ekomunthe48.github.io/ekomunthe48/src/images/pause-button.png') center center/cover"
                 musik.src = fileName;
                 musik.play()
             } else {
                 musik.pause();
                 isPlay = false;
-                e.target.style.background = "url('./src/images/play.png') center center/cover"
+                e.target.style.background = "url('https://ekomunthe48.github.io/ekomunthe48/src/images/play.png') center center/cover"
             }
         } 
         else {
             isPlay = true;
-            e.target.style.background = "url('./src/images/pause-button.png') center center/cover";
+            e.target.style.background = "url('https://ekomunthe48.github.io/ekomunthe48/src/images/pause-button.png') center center/cover";
             if (playTrack !== e.target.id){
                 musik.src = fileName;
             }
@@ -244,7 +244,7 @@ function generateQuiz(questions, quizContainer, resultsContainer, submitButton){
             clearInterval(downloadTimer)
             alert(`Your score is (score = ${skor})`)
             musik.pause()
-            e.target.style.background = "url('./src/images/play.png') center center/cover"
+            e.target.style.background = "url('https://ekomunthe48.github.io/ekomunthe48/src/images/play.png') center center/cover"
             musik.currentTime = 0
             skor = 0
             timer = 0
