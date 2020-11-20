@@ -50,7 +50,7 @@ var myQuestions = [
         question: 'Song 6',
         answers: {
             a: 'Andai Aku Bisa - Chrisye',
-            b: "ak Mampu Pergi - Sammy Simorangkir",
+            b: "Tak Mampu Pergi - Sammy Simorangkir",
             c: 'Teman Hidup - Tulus',
         },
         correctAnswer: 'c'
