@@ -1,5 +1,8 @@
 ### Hi there 👋
+If you want to see score just submit first your answers and get result 
+if you get time out and not submit you not get the score
 
+Have a nice day 😄😄😄
 <!--
 **Ekomunthe48/ekomunthe48** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
